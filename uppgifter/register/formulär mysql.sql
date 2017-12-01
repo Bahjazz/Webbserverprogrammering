@@ -1,0 +1,1 @@
+ create table form (id int(8) PRIMARY KEY AUTO_INCREMENT, username varchar(32) unique, name varchar(32), mail varchar(32) unique, date timestamp ,pasword varchar(32));

@@ -8,12 +8,12 @@
  </head>
 <body>
     <form action="submit.php" method="post"> 
-        <h3>Användarnamn:<h3/>
-		<input type="text" name="Användarnamn">
-        <h3>Lösenord:<h3/>
-		<input type="password" name="Lösenord">
+        <h3>Username:<h3/>
+		<input type="text" placeholder="username"name="username">
+        <h3>Password:<h3/>
+		<input type="password"placeholder="password" name="password">
             <br>
-        <input type="submit" name="submit">
+        <input type="submit" placeholder="submit" name="submit">
         
         
         

@@ -5,15 +5,20 @@ $password = $_POST['password'];
 
 $dbc = mysqli_connect("localhost","root","","register");
 
-$query = "SELECT * FROM form WHERE username='$username' AND pasword='$password';";
+$query = 'SELECT * FROM register WHERE username="$username" AND password="$password";';
 
-$result = mysqli_query($dbc, $query);
-
-  if(mysqli_fetch_array($result)){
+  if(mysqli_query($dbc,$query)){
     echo "Successfully logged in!";
  } 
   else{
     echo "failed try again!";
     echo "<br>".$query;
-  }
+
+
 ?>
+
+
+
+
+
+
