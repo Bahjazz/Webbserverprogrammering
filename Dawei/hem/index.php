@@ -19,7 +19,8 @@ include("../templates/navigation.php");
        
        <section id="main">
         
-        <h1>Välkommen till Da Wei</h1>
+        <h1>Välkommen Till Da Wei</h1>
+    
         
         </section>
         
