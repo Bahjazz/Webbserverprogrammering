@@ -5,13 +5,10 @@ include("../templates/navigation.php");
 ?>
 
         
-        <
+        
    
 <?php
 include("../templates/footer.html");
 ?>
         
-         
-    </body>
     
-</html>

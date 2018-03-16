@@ -1,6 +1,8 @@
-
-
-<ul>
+<!DOCTYPE html>
+<html>
+<body>
+<section id="nav">
+ <ul>
   <li><a class="active" href="/dawei/hem/">Hem</a></li>
   <li><a href="/dawei/meny/">Meny</a></li>
   <li><a href="/dawei/bordsbokning/">Bordsbokning</a></li>
@@ -10,23 +12,29 @@
 <input type="text" name="searchbox" class="search" placeholder="sök">
 </li>
 </ul>
-</div> <!-- main -->
+</section>
+</body>
+<!-- main -->
 
 <style>
         *{
 	margin:0px;
-    padding:0px;    
+    padding:0px;   
 
 }
+    
+    #nav{
+        margin: auto;
+        width: 1200px;
+        height: 70px;
+    }
 
 ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
     background-color:#290009;
     width: 1200px;
-    margin: auto;
     position: absolute;
 
     
@@ -68,3 +76,4 @@ li a:hover {
   
 
 </style>
+</html>
